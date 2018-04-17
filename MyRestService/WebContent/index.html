@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Landing page</title>
+</head>
+<body>
+<br>
+<br>
+<form action="/MyRestService/account/save" method="post">
+<input type="text" name="login" placeholder="input your name" size="50">
+<input type="text" name="birthDay" placeholder="input your day, month and year of birth" size="50">
+<input type="submit" value="SAVE">
+</form>
+
+<br>
+<br>
+<form action="/MyRestService/account" method="put">
+<input type="text" name="login" placeholder="input your name" size="50">
+<input type="text" name="birthDay" placeholder="input NEW date of birth" size="50">
+<input type="submit" value="UPDATE">
+</form>
+
+<br>
+<br>
+<form action="/MyRestService/account" method="get">
+<input type="text" name="login" placeholder="input your name" size="50">
+<input type="submit" value="GET">
+</form>
+
+<br>
+<br>
+<form action="/MyRestService/account" method="delete">
+<input type="text" name="login" placeholder="input your name" size="50">
+<input type="submit" value="DELETE">
+</form>
+
+</body>
+</html>
